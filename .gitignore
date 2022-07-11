@@ -1,0 +1,7 @@
+/test.spec
+/build
+/dist
+/Scripts
+/Lib
+pyvenv.cfg
+/bin/mariadb-bin/data
