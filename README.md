@@ -1,9 +1,10 @@
 # deploy
 
-1. setup venv with python 3.8 ```py -3.8 -m venv .```
-2. activate venv
-3. pip install -r requirements.txt
-4. python test.exe
+1. clone project
+2. setup venv with python 3.8 `py -3.8 -m venv .`
+3. activate venv
+4. pip install -r requirements.txt
+5. python test.py
 
 # build exe distributable
 
