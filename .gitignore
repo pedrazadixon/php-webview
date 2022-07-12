@@ -1,12 +1,8 @@
 /test.spec
 /build
 /dist
-/Scripts
-/Lib
-/pyvenv.cfg
 /bin/mariadb/data
-/bin/Apache24/conf/httpd.conf
 /www
-/bin/Apache24/logs
-!/bin/Apache24/logs/install.log
+/bin/apache/logs
+!/bin/apache/logs/install.log
 /venv
