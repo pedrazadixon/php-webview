@@ -9,3 +9,4 @@
 /www
 /bin/Apache24/logs
 !/bin/Apache24/logs/install.log
+/venv
