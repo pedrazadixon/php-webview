@@ -7,6 +7,5 @@
 /bin/mariadb/data
 /bin/Apache24/conf/httpd.conf
 /www
-!/www/empty
 /bin/Apache24/logs
 !/bin/Apache24/logs/install.log
