@@ -13,8 +13,11 @@ php_dir = os.path.join(work_dir, 'bin', 'php')
 mariadb_dir = os.path.join(work_dir, 'bin', 'mariadb')
 www_dir = os.path.join(work_dir, 'www')
 
+# create folder www 
+if os.path.exists(www_dir) == False:
+    os.mkdir(www_dir)
 
-# make httpd config
+# make httpd configd
 httpd_ori = open(os.path.join(apache_dir, 'conf', 'httpd.ori'), "rt")
 data = httpd_ori.read()
 data = data.replace('[PHPIniDir]', php_dir)
