@@ -1,0 +1,91 @@
+ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,53
+ColsVisible_connform.ListSessions<|||>1<|||>0
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColSort_connform.ListSessions<|||>1<|||>0,0
+CoolBand0Index<|||>3<|||>0
+CoolBand0Break<|||>3<|||>1
+CoolBand0Width<|||>3<|||>928
+CoolBand1Index<|||>3<|||>1
+CoolBand1Break<|||>3<|||>1
+CoolBand1Width<|||>3<|||>928
+MainWinOnMonitor<|||>3<|||>1
+MainWinTop<|||>3<|||>22
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,428
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColWidths_MainForm.ListStatus<|||>1<|||>160,428,100,100
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,154
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,368
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+LastSessions<|||>1<|||>
+LastActiveSession<|||>1<|||>PHP Webview
+ColWidths_frmTableEditor.listColumns<|||>1<|||>38,100,156,90,60,65,50,119,130,140,100,100
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>434,100,80
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>200,80,100,80,80,80
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+MainWinLeft<|||>3<|||>1920
+FileDialogEncoding_MainForm<|||>3<|||>0
+MainWinMaximized<|||>3<|||>1
+SQLFile0<|||>1<|||>D:\Dixon\laragon\www\php-webview\bin\heidisql\Backups\query-tab-2022-07-11_17-37-02-598.sql
+SQLFile1<|||>1<|||>D:\Dixon\laragon\www\restaurante_usbwebserver\restaurante.sql
+Servers\PHP Webview\SessionCreated<|||>1<|||>2017-02-14 13:41:54
+Servers\PHP Webview\Host<|||>1<|||>localhost
+Servers\PHP Webview\WindowsAuth<|||>3<|||>0
+Servers\PHP Webview\User<|||>1<|||>root
+Servers\PHP Webview\Password<|||>1<|||>1
+Servers\PHP Webview\LoginPrompt<|||>3<|||>0
+Servers\PHP Webview\Port<|||>1<|||>8006
+Servers\PHP Webview\NetType<|||>3<|||>0
+Servers\PHP Webview\Compressed<|||>3<|||>0
+Servers\PHP Webview\LocalTimeZone<|||>3<|||>0
+Servers\PHP Webview\QueryTimeout<|||>3<|||>0
+Servers\PHP Webview\KeepAlive<|||>3<|||>20
+Servers\PHP Webview\FullTableStatus<|||>3<|||>1
+Servers\PHP Webview\Databases<|||>1<|||>
+Servers\PHP Webview\Comment<|||>1<|||>
+Servers\PHP Webview\StartupScriptFilename<|||>1<|||>
+Servers\PHP Webview\SSHtunnelHost<|||>1<|||>
+Servers\PHP Webview\SSHtunnelHostPort<|||>3<|||>0
+Servers\PHP Webview\SSHtunnelUser<|||>1<|||>
+Servers\PHP Webview\SSHtunnelPassword<|||>1<|||>4
+Servers\PHP Webview\SSHtunnelTimeout<|||>3<|||>4
+Servers\PHP Webview\SSHtunnelPrivateKey<|||>1<|||>
+Servers\PHP Webview\SSHtunnelPort<|||>3<|||>3307
+Servers\PHP Webview\SSL_Active<|||>3<|||>0
+Servers\PHP Webview\SSL_Key<|||>1<|||>
+Servers\PHP Webview\SSL_Cert<|||>1<|||>
+Servers\PHP Webview\SSL_CA<|||>1<|||>
+Servers\PHP Webview\SSL_Cipher<|||>1<|||>
+Servers\PHP Webview\RefusedCount<|||>3<|||>6
+Servers\PHP Webview\ServerVersionFull<|||>1<|||>10.8.3-MariaDB - mariadb.org binary distribution
+Servers\PHP Webview\ConnectCount<|||>3<|||>7
+Servers\PHP Webview\ServerVersion<|||>3<|||>100803
+Servers\PHP Webview\LastConnect<|||>1<|||>2022-07-11 17:40:22
+Servers\PHP Webview\lastUsedDB<|||>1<|||>restaurante
+Servers\PHP Webview\CleartextPluginEnabled<|||>3<|||>0
+Servers\PHP Webview\TreeBackground<|||>3<|||>536870911

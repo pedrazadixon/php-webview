@@ -3,5 +3,8 @@
 /dist
 /Scripts
 /Lib
-pyvenv.cfg
+/pyvenv.cfg
 /bin/mariadb-bin/data
+/bin/Apache24/conf/httpd.conf
+/www
+!/www/empty

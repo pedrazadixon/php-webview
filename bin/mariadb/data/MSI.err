@@ -1,0 +1,64 @@
+2022-07-11 19:14:22 0 [Note] InnoDB: The first data file './ibdata1' did not exist. A new tablespace will be created!
+2022-07-11 19:14:22 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-11 19:14:22 0 [Note] InnoDB: Number of transaction pools: 1
+2022-07-11 19:14:22 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-11 19:14:22 0 [Note] InnoDB: Initializing buffer pool, total size = 20.000MiB, chunk size = 1.000MiB
+2022-07-11 19:14:22 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-11 19:14:22 0 [Note] InnoDB: Setting file './ibdata1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2022-07-11 19:14:22 0 [Note] InnoDB: File './ibdata1' size is now 12.000MiB.
+2022-07-11 19:14:22 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2022-07-11 19:14:22 0 [Note] InnoDB: Doublewrite buffer not found: creating new
+2022-07-11 19:14:22 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-11 19:14:22 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2022-07-11 19:14:22 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2022-07-11 19:14:22 0 [Note] InnoDB: log sequence number 0; transaction id 3
+2022-07-11 19:14:22 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-11 19:14:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-07-11 19:14:24 0 [Note] InnoDB: Number of transaction pools: 1
+2022-07-11 19:14:24 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-07-11 19:14:24 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2022-07-11 19:14:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-07-11 19:14:24 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2022-07-11 19:14:24 0 [Note] InnoDB: 128 rollback segments are active.
+2022-07-11 19:14:24 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2022-07-11 19:14:24 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2022-07-11 19:14:24 0 [Note] InnoDB: log sequence number 45505; transaction id 14
+2022-07-11 19:14:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-07-11 19:14:24 0 [Note] InnoDB: Loading buffer pool(s) from D:\Dixon\laragon\www\php-webview\bin\mariadb\data\ib_buffer_pool
+2022-07-11 19:14:24 0 [Note] Server socket created on IP: '::'.
+2022-07-11 19:14:24 0 [Note] Server socket created on IP: '0.0.0.0'.
+2022-07-11 19:14:24 0 [Note] InnoDB: Buffer pool(s) load completed at 220711 19:14:24
+2022-07-11 19:14:24 0 [Note] D:\Dixon\laragon\www\php-webview\bin\mariadb\bin\mariadbd.exe: ready for connections.
+Version: '10.8.3-MariaDB'  socket: ''  port: 8006  mariadb.org binary distribution
+2022-07-11 19:14:24 3 [Warning] Aborted connection 3 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:24 3 [Warning] Aborted connection 3 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:25 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:25 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:26 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:26 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:27 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:27 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:28 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:28 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:29 8 [Warning] Aborted connection 8 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:29 8 [Warning] Aborted connection 8 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:30 9 [Warning] Aborted connection 9 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:30 9 [Warning] Aborted connection 9 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:31 10 [Warning] Aborted connection 10 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:31 10 [Warning] Aborted connection 10 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:32 11 [Warning] Aborted connection 11 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:32 11 [Warning] Aborted connection 11 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:33 12 [Warning] Aborted connection 12 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:33 12 [Warning] Aborted connection 12 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:34 13 [Warning] Aborted connection 13 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:34 13 [Warning] Aborted connection 13 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:35 14 [Warning] Aborted connection 14 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:35 14 [Warning] Aborted connection 14 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:36 15 [Warning] Aborted connection 15 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:36 15 [Warning] Aborted connection 15 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:37 16 [Warning] Aborted connection 16 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:37 16 [Warning] Aborted connection 16 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:38 17 [Warning] Aborted connection 17 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:38 17 [Warning] Aborted connection 17 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2022-07-11 19:14:39 18 [Warning] Aborted connection 18 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (Got an error reading communication packets)
+2022-07-11 19:14:39 18 [Warning] Aborted connection 18 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
