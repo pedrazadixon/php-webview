@@ -8,5 +8,9 @@
 
 # build exe distributable
 
-1. pyinstaller --noconsole --onefile test.py
-2. move dist\test.exe to root project
+1.  pyinstaller --noconsole --onefile --uac-admin test.py
+2.  move dist\test.exe to root project
+
+# fixes
+
+1. admin rights are required for create servers
