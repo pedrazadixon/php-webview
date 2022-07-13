@@ -34,6 +34,7 @@ def main():
     php_version = args.php
     php_arch = args.arch
     apache_arch = 'win64' if args.arch == 'x64' else 'win32'
+    mariadb_arch = 'winx64' if args.arch == 'x64' else 'win32'
 
     if(php_version.startswith('5.5') or php_version.startswith('5.6')):
         php_vc_vs = 'VC11'
@@ -69,8 +70,15 @@ def main():
     download_file(php_filename, php_base_url + php_filename)
     download_file(apache_filename, apache_base_url + apache_filename)
 
+    mariadb_filename = False
+    if (os.path.exists(os.path.join(os.getcwd(), 'bin', 'mariadb')) == False):
+        mariadb_base_url = 'https://archive.mariadb.org/mariadb-10.2.41/{}-packages/'.format(mariadb_arch)
+        mariadb_filename = 'mariadb-10.2.41-{}.zip'.format(mariadb_arch)
+        download_file(mariadb_filename, mariadb_base_url + mariadb_filename)
+
     php_bin_dir = os.path.join(os.getcwd(), 'bin', 'php')
     apache_bin_dir = os.path.join(os.getcwd(), 'bin', 'apache')
+    mariadb_bin_dir = os.path.join(os.getcwd(), 'bin', 'mariadb')
 
     print('Removing old php bin...')
     if (os.path.exists(php_bin_dir)):
@@ -95,11 +103,25 @@ def main():
                     zip_ref.extract(file, os.path.join(os.getcwd(), 'bin'))
                 bar.update(1)
 
+    if (os.path.exists(os.path.join(os.getcwd(), 'bin', 'mariadb')) == False):
+        print('Extract ' + mariadb_filename)
+        with zipfile.ZipFile(os.path.join(tempfile.gettempdir(), mariadb_filename), 'r') as zip_ref:
+            with click.progressbar(length=len(zip_ref.namelist()), label='Extracting...') as bar:
+                for file in zip_ref.namelist():
+                    zip_ref.extract(file, os.path.join(os.getcwd(), 'bin'))
+                    bar.update(1)
+
     os.rename(os.path.join(os.getcwd(), 'bin', 'Apache24'), apache_bin_dir)
+
+    if (os.path.exists(os.path.join(os.getcwd(), 'bin', 'mariadb')) == False):
+        os.rename(os.path.join(os.getcwd(), 'bin', 'mariadb-10.2.41-{}'.format(mariadb_arch)), mariadb_bin_dir)
 
     print('Removing downloaded temp files...')
     os.remove(os.path.join(tempfile.gettempdir(), php_filename))
     os.remove(os.path.join(tempfile.gettempdir(), apache_filename))
+
+    if (mariadb_filename):
+        os.remove(os.path.join(tempfile.gettempdir(), mariadb_filename))
 
     print('New PHP version installed!')
 

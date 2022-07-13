@@ -1,8 +1,8 @@
 /test.spec
 /build
 /dist
-/bin/mariadb/data
 /www
 /venv
+/bin/mariadb
 /bin/php
 /bin/apache
