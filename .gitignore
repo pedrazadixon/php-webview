@@ -6,3 +6,4 @@
 /bin/apache/logs
 !/bin/apache/logs/install.log
 /venv
+/bin/php/php.ini
