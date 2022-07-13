@@ -105,11 +105,13 @@ php_ini.close()
 
 # initialize mysql data if required
 if os.path.exists(os.path.join(mariadb_dir, 'data')) == False:
-    subprocess.Popen(os.path.join(mariadb_dir, 'bin', 'mysql_install_db.exe'), creationflags=nw).wait()
+    data_cmd = '"' + os.path.join(mariadb_dir, 'bin', 'mysql_install_db.exe') + \
+        '" -d "' + os.path.join(mariadb_dir, 'data') + '"'
+    subprocess.Popen(data_cmd, creationflags=nw).wait()
 
 
 # start_servers
-mysql_server = subprocess.Popen([os.path.join(mariadb_dir, 'bin', 'mariadbd.exe'), '--port=8006'], creationflags=nw)
+mysql_server = subprocess.Popen([os.path.join(mariadb_dir, 'bin', 'mysqld.exe'), '--port=8006'], creationflags=nw)
 
 httpd_server = subprocess.Popen([os.path.join(apache_dir, 'bin', 'httpd.exe')], creationflags=nw)
 
