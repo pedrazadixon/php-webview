@@ -3,7 +3,6 @@
 /dist
 /bin/mariadb/data
 /www
-/bin/apache/logs
-!/bin/apache/logs/install.log
 /venv
-/bin/php/php.ini
+/bin/php
+/bin/apache
