@@ -81,8 +81,10 @@ php_ini = open(os.path.join(php_dir, 'php.ini'), "rt")
 data = php_ini.read()
 php_ini.close()
 
-data = re.sub(r'(^; ?extension_dir = "ext".*)',
+data = re.sub(r'(^;? ?extension_dir = .*ext".*)',
               'extension_dir = "{}"'.format(php_ext_dir.replace('\\', '\\\\')), data, flags=re.M)
+
+print('extension_dir = "{}"'.format(php_ext_dir.replace('\\', '\\\\')))
 
 # php >= 7
 data = re.sub(r'(^;extension=intl.*)', 'extension=intl', data, flags=re.M)
