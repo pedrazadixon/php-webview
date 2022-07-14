@@ -5,6 +5,7 @@ import shutil
 import os
 import zipfile
 import tempfile
+from bs4 import BeautifulSoup
 
 
 def download_file(file_name, url):
@@ -22,6 +23,37 @@ def download_file(file_name, url):
                 for data in response.iter_content(chunk_size=4096):
                     f.write(data)
                     bar.update(4096)
+
+
+def getPhpVersions():
+    php_versions_supported = []
+    php_page = 'https://windows.php.net/downloads/releases/archives/'
+    page = requests.get(php_page)
+    soup = BeautifulSoup(page.content, "html.parser")
+    results = soup.find_all("a")
+    for result in results:
+        if 'nts' in result.getText():
+            continue
+        if 'test-pack' in result.getText():
+            continue
+        if 'debug-pack' in result.getText():
+            continue
+        if 'src' in result.getText():
+            continue
+        if 'devel-pack' in result.getText():
+            continue
+        if not result.getText().startswith("php-"):
+            continue
+        if not result.getText().endswith(".zip"):
+            continue
+        if '-5.6.40' in result.getText():
+            php_versions_supported.append(result.getText().split('-')[1])
+        if '-7.' in result.getText():
+            php_versions_supported.append(result.getText().split('-')[1])
+        if '-8.' in result.getText():
+            php_versions_supported.append(result.getText().split('-')[1])
+
+    return set(php_versions_supported)
 
 
 def main():
@@ -56,7 +88,13 @@ def main():
         apache_base_url = 'https://www.apachelounge.com/download/VS16/binaries/'
         apache_filename = 'httpd-2.4.54-{}-VS16.zip'.format(apache_arch)
 
+    print("Verifing support of PHP version...")
     if (php_vc_vs is None):
+        print("Error: PHP version not supported.")
+        raise SystemExit
+
+    php_versions_supported = getPhpVersions()
+    if php_version not in php_versions_supported:
         print("Error: PHP version not supported.")
         raise SystemExit
 
