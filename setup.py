@@ -57,6 +57,13 @@ def getPhpVersions():
 
 
 def main():
+
+    try:
+        requests.get('https://1.1.1.1', timeout=5)
+    except:
+        print('Error: You need internet connection.')
+        raise SystemExit
+
     parser = argparse.ArgumentParser()
     parser.add_argument('--php', help='php version', required=True)
     parser.add_argument('--arch', help='architecture x86 or x64', choices=['x86', 'x64'], required=True)
